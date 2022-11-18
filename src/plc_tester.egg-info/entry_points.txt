@@ -1,0 +1,4 @@
+[console_scripts]
+plc-tester = plc_tester.run_logic:main
+plc-tester-example = plc_tester.run_sample_logic:main
+

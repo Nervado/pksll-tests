@@ -1,0 +1,16 @@
+.vscode
+.pytest_cache
+src/scc_co2_buz.egg-info
+**/*.log
+analysis
+coverage
+.DS_Store
+src/tests/log/*
+src/tests/log/*
+build/*
+dist/*
+.VSCodeCounter
+**/*.pyc
+itens
+**/*.tar
+**/*.zip
