@@ -1,6 +1,6 @@
 import unittest
 
-from pksll_tests.db.repository import Repository
+from plc_tester.db.repository import Repository
 
 
 class InfluxDbAdapter(Repository):
