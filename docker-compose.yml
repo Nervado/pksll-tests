@@ -1,6 +1,6 @@
 version: "3.5"
 services:
-  datalogger:     
+  plc:     
     image: aut/vip:${CONTAINER_VERSION}
     volumes:
       - ./dist:/dist

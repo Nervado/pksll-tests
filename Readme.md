@@ -67,16 +67,7 @@ data_logger-0.0.1-py3-none.any.whl
 | PIT_1210007B | P-JUZ-CKP |      B      |  9-BUZ-2-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210007B     |     ns=2;s=AI.PSD.AI_PV_PIT_1210007B     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
 | PIT_1210007C | P-JUZ-CKP |      C      |  9-BUZ-3-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210007C     |     ns=2;s=AI.PSD.AI_PV_PIT_1210007C     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
 | PIT_1210007D | P-JUZ-CKP |      D      |  9-BUZ-4-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210007D     |     ns=2;s=AI.PSD.AI_PV_PIT_1210007D     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210007E | P-JUZ-CKP |      E      |  9-BUZ-5-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210007E     |     ns=2;s=AI.PSD.AI_PV_PIT_1210007E     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210007F | P-JUZ-CKP |      F      |  9-BUZ-6-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210007F     |     ns=2;s=AI.PSD.AI_PV_PIT_1210007F     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210008A | P-JUZ-CKP |      A      |  9-BUZ-1-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210008A     |     ns=2;s=AI.PSD.AI_PV_PIT_1210008A     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210008B | P-JUZ-CKP |      B      |  9-BUZ-2-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210008B     |     ns=2;s=AI.PSD.AI_PV_PIT_1210008B     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210008C | P-JUZ-CKP |      C      |  9-BUZ-3-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210008C     |     ns=2;s=AI.PSD.AI_PV_PIT_1210008C     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210008D | P-JUZ-CKP |      D      |  9-BUZ-4-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210008D     |     ns=2;s=AI.PSD.AI_PV_PIT_1210008D     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210008E | P-JUZ-CKP |      E      |  9-BUZ-5-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210008E     |     ns=2;s=AI.PSD.AI_PV_PIT_1210008E     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210008F | P-JUZ-CKP |      F      |  9-BUZ-6-RJS  |     ns=2;s=AI.PSD.AI_PV_PIT_1210008F     |     ns=2;s=AI.PSD.AI_PV_PIT_1210008F     |   kPag  | float |      0     |      1     |      0     |      1     |   PSD  | P77 |
-| PIT_1210004K | P-MON-CKP |      K      | 7-BUZ-24D-RJS | ns=2;s=PSD_A.Active.InputRegister.301397 | ns=2;s=PSD_B.Active.InputRegister.301397 |   kPag  |  int  |      0     |    30000   |      0     |    30000   |   PSD  | P76 |
-| PIT_1210004H | P-MON-CKP |      H      | 7-BUZ-31D-RJS | ns=2;s=PSD_A.Active.InputRegister.301386 | ns=2;s=PSD_B.Active.InputRegister.301386 |   kPag  |  int  |      0     |    30000   |      0     |    30000   |   PSD  | P76 |
+
 
 2. Configure os valores das variaveis de ambiente: PLC_URL, MAX_SAMPLES, SAMPLING_PERIOD, UEP.
 
@@ -103,3 +94,8 @@ data_logger-0.0.1-py3-none.any.whl
 
 1. Não utilize uma variável com valor muito baixo para SAMPLING_PERIOD ( minimo de 5s ).
 2. Caso não seja absolutamente necessário não deixe este sistema rodando muito tempo em ambiente de produção.
+
+
+obs:
+
+@petrobr2022
