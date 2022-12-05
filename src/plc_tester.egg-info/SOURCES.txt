@@ -12,5 +12,7 @@ src/plc_tester.egg-info/requires.txt
 src/plc_tester.egg-info/top_level.txt
 src/plc_tester/db/repository.py
 src/plc_tester/models/tagmodel.py
+src/plc_tester/plc/pksll.py
 src/plc_tester/plc/plc.py
-src/tests/test_db.py
+src/tests/test_pksll.py
+src/tests/log/tests.log
