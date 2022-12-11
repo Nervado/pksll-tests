@@ -1,0 +1,23 @@
+version: "3.5"
+services:
+  plc:     
+    image: aut/vip:${CONTAINER_VERSION}
+    volumes:
+      - ./dist:/dist
+    working_dir: /dist
+    command: bash -c "pip uninstall scc-co2-buz -y && pip install plc_tester-${VERSION}-py3-none-any.whl && plc-tester-example"
+    tty: true
+    restart: always
+    container_name: plc_tester
+    logging:
+        driver: "json-file"
+        options:
+            max-file: ${LOG_FILES}
+            max-size: ${LOG_SIZE}
+    networks:
+      - plc_net
+networks:
+  vipnet:
+    external:
+      name: plc_net
+  
