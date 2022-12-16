@@ -1,0 +1,25 @@
+
+// verifica abertura de alguma SDV
+INHB_SDV(4000, SDY_1210002A, SDY_1210002B, SDY_1210002C, SDY_1210002D, SDY_1210002E, SDY_1210002F);
+
+// Shutdown injection A
+
+T_USS_A(USS_1252502A)
+
+// Shutdown injection B
+USS_1252502B
+
+T_USS_B(USS_1252502A)
+
+IF NOT SDY_02 OR (NOT YSHA AND NOT YSHB) THEN
+  inhbit := 0;
+ELSIF Condition2 THEN
+  // inibe se alguma SDV de injeçao está abrindo ou
+  // alguma compressor de injecao sofreu ESD
+  inhibt := INHB_SDV.aux_sdv_open OR ;
+ELSE
+
+END_IF;
+
+
+

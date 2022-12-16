@@ -1,0 +1,20 @@
+// Inibição por 4 min após abertura de qualquer SDV de injeção
+
+// verifica borda de subida de abertura de alguma SDV
+
+r_A(clk := SDV_A)
+r_B(clk := SDV_B)
+r_C(clk := SDV_C)
+r_D(clk := SDV_D)
+r_E(clk := SDV_E)
+r_F(clk := SDV_F)
+
+// temporizador de inibição
+t_A(IN := rise_A.Q, PT := tlimit)
+t_B(IN := rise_B.Q, PT := tlimit)
+t_C(IN := rise_C.Q, PT := tlimit)
+t_D(IN := rise_D.Q, PT := tlimit)
+t_E(IN := rise_E.Q, PT := tlimit)
+t_F(IN := rise_F.Q, PT := tlimit)
+
+aux_sdv_open := t_A.Q OR t_B.Q OR t_C.Q OR t_D.Q OR t_E.Q OR t_F.Q ;
